@@ -1,0 +1,22 @@
+# ---------- Frontend (React) ----------
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+# ---------- Backend (Go) ----------
+# Compiled binaries
+*.exe
+*.out
+backend/backend
+backend/websocket-backend
+
+# ---------- Environment files ----------
+.env
+.env.*
+
+# ---------- Editor / OS ----------
+.vscode/
+.idea/
+.DS_Store
+*.log
